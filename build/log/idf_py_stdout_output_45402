@@ -1,0 +1,61 @@
+Command: ninja all
+[1/70] Linking C static library esp-idf/protocomm/libprotocomm.a
+[2/70] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+[3/70] Building CXX object esp-idf/actuators/CMakeFiles/__idf_actuators.dir/src/Buzzer.cpp.obj
+[4/70] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
+[5/70] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c.c.obj
+[6/70] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[7/70] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[8/70] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[9/70] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[10/70] Linking C static library esp-idf/wear_levelling/libwear_levelling.a
+[11/70] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj
+[12/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj
+[13/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj
+[14/70] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[15/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj
+[16/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj
+[17/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj
+[18/70] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj
+[19/70] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
+[20/70] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
+[21/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj
+[22/70] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
+[23/70] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.obj
+[24/70] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj
+[25/70] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj
+[26/70] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
+[27/70] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
+[28/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[29/70] Linking C static library esp-idf/actuators/libactuators.a
+[30/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+[31/70] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
+[32/70] Linking C static library esp-idf/sensors/libsensors.a
+[33/70] Linking C static library esp-idf/cmock/libcmock.a
+[34/70] Linking C static library esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
+[35/70] Linking C static library esp-idf/driver/libdriver.a
+[36/70] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/smartlabmanager.cpp.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/smartlabmanager.cpp.obj 
+/Users/mannanjit/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -DESP_PLATFORM -DIDF_VER=\"v6.0.2\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/Users/mannanjit/Documents/smartlabmanager/build/config -I/Users/mannanjit/Documents/smartlabmanager/main -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_libc/platform_include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/freertos/config/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/freertos/config/include/freertos -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/freertos/config/xtensa/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/freertos/esp_additions/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/include/soc -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/ldo/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/debug_probe/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/etm/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/power_supply/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/modem/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/heap/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/heap/tlsf -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/log/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/soc/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/soc/esp32 -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/soc/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/soc/esp32/register -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/hal/platform_port/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/hal/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/hal/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_rom/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32/include/esp32 -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32 -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_common/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_system/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_system/port/soc -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_system/port/include/private -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_stdio/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/xtensa/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/xtensa/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/xtensa/deprecated_include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_gpio/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_gpio/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_usb/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_pmu/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_pmu/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_ana_conv/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_ana_conv/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_dma/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_i2s/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_hal_i2s/esp32/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/include/apps -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/lwip/src/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/port/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/port/freertos/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include/sys -I/Users/mannanjit/Documents/smartlabmanager/components/actuators/include -I/Users/mannanjit/Documents/smartlabmanager/components/devices/include -I/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/esp_driver_gpio/include -I/Users/mannanjit/Documents/smartlabmanager/components/sensors/include @"/Users/mannanjit/Documents/smartlabmanager/build/toolchain/cxxflags" -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/Users/mannanjit/Documents/smartlabmanager=. -fmacro-prefix-map=/Users/mannanjit/.espressif/v6.0.2/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu++26 -fno-exceptions -fuse-cxa-atexit -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/smartlabmanager.cpp.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/smartlabmanager.cpp.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/smartlabmanager.cpp.obj -c /Users/mannanjit/Documents/smartlabmanager/main/smartlabmanager.cpp
+/Users/mannanjit/Documents/smartlabmanager/main/smartlabmanager.cpp:9:1: error: 'buzzer' does not name a type; did you mean 'Buzzer'?
+    9 | buzzer buzz(GPIO_NUM_15);
+      | ^~~~~~
+      | Buzzer
+/Users/mannanjit/Documents/smartlabmanager/main/smartlabmanager.cpp:14:6: error: 'buzz' was not declared in this scope; did you mean 'Buzzer'?
+   14 |     &buzz
+      |      ^~~~
+      |      Buzzer
+/Users/mannanjit/Documents/smartlabmanager/main/smartlabmanager.cpp: In function 'void app_main()':
+/Users/mannanjit/Documents/smartlabmanager/main/smartlabmanager.cpp:25:20: error: 'class InputDevice' has no member named 'read'
+   25 |         sensorPtr->read();
+      |                    ^~~~
+[37/70] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
+[38/70] Linking C static library esp-idf/esp_blockdev_util/libesp_blockdev_util.a
+[39/70] Linking C static library esp-idf/esp_driver_cam/libesp_driver_cam.a
+[40/70] Linking C static library esp-idf/esp_driver_dac/libesp_driver_dac.a
+[41/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj
+[42/70] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
+[43/70] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
+[44/70] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
+[45/70] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj
+ninja: build stopped: subcommand failed.

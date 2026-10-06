@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "src/Buzzer.cpp"
+        "src/LED.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        devices
+)
