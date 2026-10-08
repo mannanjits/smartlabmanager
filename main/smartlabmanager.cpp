@@ -1,22 +1,17 @@
-#include"LED.h"
-#include"Buzzer.h"
-#include"TestSensor.h"
+#include"led.hpp"
+#include"buzzer.hpp"
 #include"freertos/FreeRTOS.h"
 #include"freertos/task.h"
 #include "esp_log.h"
 
-LED led(GPIO_NUM_17);
-Buzzer buzz(GPIO_NUM_15);
-TestSensor sensor(GPIO_NUM_18);
+led led(GPIO_NUM_17);
+buzzer buzz(GPIO_NUM_15);
 
 OutputDevice* OutputDevices[]{
     &led,
     &buzz
 };
 
-InputDevice* InputDevices[]{
-    &sensor
-};
 
 extern "C" void app_main(){
 }

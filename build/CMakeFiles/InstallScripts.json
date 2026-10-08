@@ -162,7 +162,6 @@
 		"/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/ulp/cmake_install.cmake",
 		"/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/devices/cmake_install.cmake",
 		"/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/actuators/cmake_install.cmake",
-		"/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/cmake_install.cmake",
 		"/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/main/cmake_install.cmake"
 	],
 	"Parallel" : false

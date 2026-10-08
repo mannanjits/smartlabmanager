@@ -1,0 +1,82 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/mbedtls",
+			"paths" : 
+			[
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/debug.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/oid.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pkcs7.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cache.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cookie.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ticket.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/timing.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/version.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_csr.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/mbedtls/private",
+			"paths" : 
+			[
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_ssl.h",
+				"/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_x509.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "esp-idf/mbedtls/mbedtls/include",
+		"source" : "/Users/mannanjit/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/include"
+	}
+}

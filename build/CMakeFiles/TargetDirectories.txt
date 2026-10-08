@@ -1125,13 +1125,6 @@
 /Users/mannanjit/Documents/smartlabmanager/build/esp-idf/actuators/CMakeFiles/install.dir
 /Users/mannanjit/Documents/smartlabmanager/build/esp-idf/actuators/CMakeFiles/install/local.dir
 /Users/mannanjit/Documents/smartlabmanager/build/esp-idf/actuators/CMakeFiles/install/strip.dir
-/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/CMakeFiles/__idf_sensors.dir
-/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/CMakeFiles/edit_cache.dir
-/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/CMakeFiles/rebuild_cache.dir
-/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/CMakeFiles/list_install_components.dir
-/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/CMakeFiles/install.dir
-/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/CMakeFiles/install/local.dir
-/Users/mannanjit/Documents/smartlabmanager/build/esp-idf/sensors/CMakeFiles/install/strip.dir
 /Users/mannanjit/Documents/smartlabmanager/build/esp-idf/main/CMakeFiles/__idf_main.dir
 /Users/mannanjit/Documents/smartlabmanager/build/esp-idf/main/CMakeFiles/edit_cache.dir
 /Users/mannanjit/Documents/smartlabmanager/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

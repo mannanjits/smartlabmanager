@@ -1,8 +1,8 @@
 idf_component_register(
     SRCS
-        "src/Device.cpp"
-        "src/OutputDevice.cpp"
-        "src/InputDevice.cpp"
+        "src/device.cpp"
+        "src/outputdevice.cpp"
+        "src/inputdevice.cpp"
     INCLUDE_DIRS
         "include"
     REQUIRES

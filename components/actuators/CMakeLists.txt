@@ -1,7 +1,7 @@
 idf_component_register(
     SRCS
-        "src/Buzzer.cpp"
-        "src/LED.cpp"
+        "src/buzzer.cpp"
+        "src/led.cpp"
     INCLUDE_DIRS
         "include"
     REQUIRES

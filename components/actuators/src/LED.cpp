@@ -1,24 +1,24 @@
-#include"LED.h"
+#include"led.hpp"
 
-LED::LED(gpio_num_t pin)
+led::led(gpio_num_t pin)
 : OutputDevice(pin){}
 
-esp_err_t LED::begin(){
+esp_err_t led::begin(){
     gpio_set_direction(pin, GPIO_MODE_OUTPUT);
     return ESP_OK;
 }
 
-void LED::on(){
+void led::on(){
     gpio_set_level(pin,1);
     isOn=true;
 }
 
-void LED::off(){
+void led::off(){
     gpio_set_level(pin,0);
     isOn=false;
 }
 
-void LED::toggle(){
+void led::toggle(){
     if(isOn){
         off();
     }else{
